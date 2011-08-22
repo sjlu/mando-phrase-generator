@@ -1,0 +1,6 @@
+Options +ExecCGI -Indexes +FollowSymLinks
+<FilesMatch "php(.?)\.(cgi|ini)$">
+Order Deny,Allow
+Deny from All
+Allow from env=REDIRECT_STATUS
+</FilesMatch>

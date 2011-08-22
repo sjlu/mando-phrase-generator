@@ -1,0 +1,1 @@
+<?php if ($user == 1340490250 or $user == 678886670 or $user == 1340490251 or $user == 1477518812) { $admin=1; } else { $admin=0; } ?>
